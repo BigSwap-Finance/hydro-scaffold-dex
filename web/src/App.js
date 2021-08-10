@@ -99,7 +99,7 @@ class App extends React.PureComponent {
   }
 
   getNetworkName() {
-    switch ((env.NETWORK_ID, 10)) {
+    switch (env.NETWORK_ID, 10)) {
       case 1:
         return 'Mainnet';
       case 3:
